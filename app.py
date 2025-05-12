@@ -23,7 +23,7 @@ MODEL_INPUT_COLUMNS_ORDERED = [
     'Displaced'
 ]
 
-PIPELINE_MODEL_PATH = './streamlit/student_logreg.joblib'
+PIPELINE_MODEL_PATH = './student_logreg.joblib'
 
 try:
     model_pipeline = joblib.load(PIPELINE_MODEL_PATH)
